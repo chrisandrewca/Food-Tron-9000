@@ -14,9 +14,9 @@
   },
   "dependencies": {
     "env-cmd": "^10.1.0",
-    "mongodb": "^3.5.5"
+    "mongodb": "^3.6.0"
   },
   "devDependencies": {
-    "migrate-mongo": "^7.2.1"
+    "migrate-mongo": "^8.1.1"
   }
 }
