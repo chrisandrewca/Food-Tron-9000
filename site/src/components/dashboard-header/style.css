@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+.header > h1 {
+  font-size: 2rem;
+}
+
+.header > h1 > a {
+	text-decoration: none;
+	color: inherit !important;
+}
+
+.header a {
+  color: #6772e5;
+}
+
+.header a:visited {
+	color: #6772e5;
+}

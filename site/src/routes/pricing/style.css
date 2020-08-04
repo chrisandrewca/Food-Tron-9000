@@ -1,0 +1,19 @@
+.calculator {
+  padding-top: 0.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.calculator label {
+  font-size: 1.2rem;
+}
+
+.calculator label > span {
+  display: block;
+  font-weight: 400;
+  padding: 0.4rem 0;
+}
+
+.calculator span > span {
+  font-weight: 900;
+  color: green;
+}

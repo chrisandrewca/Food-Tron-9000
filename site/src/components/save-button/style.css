@@ -1,0 +1,12 @@
+/* for use with /components/circle-loader.js */
+.loaderButton {
+  width: 36px;
+  height: 36px;
+  position: absolute !important;
+}
+
+/* for use with /components/circle-loader.js */
+.loaderButton div {
+  border: 8px solid #fff !important;
+  border-color: #fff transparent transparent transparent !important;
+}

@@ -1,0 +1,28 @@
+.menu > h2 {
+  text-align: center;
+}
+
+.menu > a {
+  width: 100%;
+  text-align: center;
+}
+
+.menuItems {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 0.75rem;
+  margin: 2rem 0 0 0;
+  align-items: center;
+}
+
+.menuItems > a {
+  padding: 0;
+  width: 150px;
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 1rem;
+  padding: 0.2rem;
+}

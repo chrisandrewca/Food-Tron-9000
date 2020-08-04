@@ -1,0 +1,22 @@
+.add {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  color: #673AB7;
+}
+
+/* for use with /components/circle-loader.js */
+.loaderLink {
+  width: 36px !important;
+  height: 36px !important;
+  position: absolute !important;
+  margin: 2px 0 0 0;
+}
+
+/* for use with /components/circle-loader.js */
+.loaderLink div {
+  border: 8px solid #673AB7 !important;
+  border-color: #673AB7 transparent transparent transparent !important;
+}

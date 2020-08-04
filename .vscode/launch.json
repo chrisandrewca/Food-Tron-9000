@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "type": "chrome",
+          "request": "attach",
+          "name": "Next: Chrome",
+          "urlFilter": "https://shopifyrestaurant.com/*",
+          "webRoot": "${workspaceFolder}",
+          "port": 3000
+      },
+      {
+          "type": "node",
+          "request": "launch",
+          "name": "Next: Node",
+          "runtimeExecutable": "npm",
+          "runtimeArgs": [
+              "run",
+              "debug"
+          ],
+          "port": 9229,
+          "console": "integratedTerminal"
+      }
+  ],
+  "compounds": [
+      {
+          "name": "Next: Full",
+          "configurations": ["Next: Node", "Next: Chrome"]
+      }
+  ]
+}

@@ -1,0 +1,28 @@
+section > form > div {
+  margin-bottom: 2rem;
+}
+
+.photoCarousel {
+  position: relative;
+}
+
+.photoCarousel > div {
+  margin-bottom: 0 !important;
+  height: 284px;
+}
+
+.addPhoto {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 0;
+  bottom: 0;
+  font-size: 2.2rem;
+}
+
+.saveBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2.6rem;
+}

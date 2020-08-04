@@ -1,0 +1,13 @@
+.share {
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 1.4rem;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 1px dashed #673AB7;
+  padding: 2rem 0;
+}
+
+p:not(:last-of-type) {
+  padding-bottom: 1rem;
+}

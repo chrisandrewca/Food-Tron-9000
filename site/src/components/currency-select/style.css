@@ -1,0 +1,27 @@
+@media all and (max-width: 400px) {
+  .currency {
+    margin: 0 1.4rem 0 0;
+    width: 8rem;
+  }
+}
+@media all and (min-width: 401px) {
+  .currency {
+    margin: 0 1.2rem 0 0;
+    width: 5.5rem;
+  }
+}
+
+.currency select {
+  border: none;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.349);
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: rgba(73, 73, 73, 0.637);
+  width: 100%;
+}
+
+.currency select:active,
+.currency select:focus {
+  outline: none;
+  box-shadow: none;
+}

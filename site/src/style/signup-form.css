@@ -1,0 +1,357 @@
+form > div,
+.form > div {
+  margin-bottom: 1.2rem;
+}
+
+form > div > div,
+.form > div > div {
+  margin-bottom: 1rem;
+}
+
+label {
+  width: 100%;
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(68, 68, 68, 0.89);
+}
+
+label > input,
+label > textarea,
+label > div {
+  margin-top: 0.4rem;
+}
+
+label > input[type='range'] {
+  margin-top: 1rem;
+}
+
+input {
+  width: 100%;
+  display: block;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px rgba(103, 58, 183,.3), 0 1px 1px 0 rgba(0,0,0,.07), 0 0 0 4px rgba(103, 58, 183,.3);
+  position: relative;
+  z-index: 4;
+}
+
+.without-focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.focus-outline {
+  outline: none !important;
+  box-shadow: 0 0 0 1px rgba(103, 58, 183,.3), 0 1px 1px 0 rgba(0,0,0,.07), 0 0 0 4px rgba(103, 58, 183,.3) !important;
+  position: relative !important;
+  z-index: 4 !important;
+}
+
+.input-error {
+  color: #dc2727;
+  box-shadow: 0 0 0 1px #ef9896, 0 2px 4px 0 rgba(0,0,0,.07), 0 1px 1.5px 0 rgba(0,0,0,.05);
+  position: relative;
+  z-index: 2;
+}
+
+.input-error input {
+  color: #dc2727;
+}
+
+.input-error-text {
+  color: #dc2727;
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+  display: inline-block;
+}
+
+.input-top {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  margin-bottom: 0;
+}
+
+.input-middle {
+  border-radius: 0 !important;
+  border-top: none !important;
+}
+
+.input-bottom {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-top: none !important;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+input[type='file'] {
+  position: absolute;
+  margin: -2.4rem 0 0 0;
+  padding: 0;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+
+input[type='text'] {
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid #dbdbdb;
+}
+
+textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 5rem;
+  font-size: 1rem;
+  padding: 0.8rem;
+  margin: 0;
+  border-radius: 4px;
+  border: 1px solid #dbdbdb;
+  display: block;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px rgba(103, 58, 183,.3), 0 1px 1px 0 rgba(0,0,0,.07), 0 0 0 4px rgba(103, 58, 183,.3);
+  position: relative;
+  z-index: 4;
+}
+
+input[type='submit' i] {
+  width: 100%;
+  border: none;
+}
+
+input[type='submit' i]:active {
+  outline: none;
+}
+
+fieldset {
+  margin: 0.4rem 0 0 0;
+  padding: 0;
+  border: none;
+}
+
+fieldset > input {
+  margin: 0;
+}
+
+.file {
+  position: relative;
+}
+
+.file span {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.file a {
+  margin-top: 16px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+}
+
+.file a:focus {
+  outline: none;
+}
+
+.file a img {
+  max-width: 100%;
+  padding-top: 0.7rem;
+  max-height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type='range'] {
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  height: 1.5rem;
+  border: 1px solid rgba(103, 58, 183,.3);
+  border-radius: 4px;
+}
+
+input[type='range']:focus {
+  outline-offset: 0;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 2.5rem;
+  width: 1.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #673AB7;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 1px solid white;
+}
+
+input[type=range]::-moz-range-thumb {
+  height: 2.5rem;
+  width: 1.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #673AB7;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 1px solid white;
+}
+
+.checkbox {
+  margin-left: 2px;
+  margin-bottom: 1.4rem !important;
+  height: 16px;
+}
+
+/* https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3 */
+.checkbox input[type="checkbox"] {
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  height: 16px;
+}
+
+.checkbox label {
+  position: relative;
+  display: inline-block;
+  
+  /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+  padding-left: 26px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+  position: absolute;
+  content: "";
+  
+  /*Needed for the line-height to take effect*/
+  display: inline-block;
+}
+
+/*Outer box of the fake checkbox*/
+.checkbox label::before{
+  height: 16px;
+  width: 16px;
+  
+  border: 1px solid;
+  left: 0px;
+  
+  /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+   *to vertically center it.
+   */
+  top: 3px;
+}
+
+/*Checkmark of the fake checkbox*/
+.checkbox label::after {
+  height: 5px;
+  width: 9px;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  
+  transform: rotate(-45deg);
+  
+  left: 4px;
+  top: 7px;
+  color: green;
+}
+
+/*Hide the checkmark by default*/
+.checkbox input[type="checkbox"] + label::after {
+  content: none;
+}
+
+/*Unhide on the checked state*/
+.checkbox input[type="checkbox"]:checked + label::after {
+  content: "";
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+.checkbox input[type="checkbox"]:focus + label::before {
+  outline: none;
+  box-shadow: 0 0 0 1px rgba(103, 58, 183,.3), 0 1px 1px 0 rgba(0,0,0,.07), 0 0 0 4px rgba(103, 58, 183,.3);
+}
+
+.radio {
+  margin-bottom: 0.8rem !important;
+}
+
+.radio input[type="radio"] {
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.radio label {
+  position: relative;
+  display: inline-block;
+  
+  /*16px width of fake radio + 6px distance between fake radio and text*/
+  padding-left: 26px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.radio label::before,
+.radio label::after {
+  position: absolute;
+  content: "";
+  
+  /*Needed for the line-height to take effect*/
+  display: inline-block;
+}
+
+/*Outer box of the fake radio*/
+.radio label::before{
+  height: 16px;
+  width: 16px;
+  
+  border: 1px solid;
+  left: 0px;
+  
+  /*(24px line-height - 16px height of fake radio) / 2 - 1px for the border
+   *to vertically center it.
+   */
+  top: 3px;
+  border-radius: 50%;
+}
+
+/*Checkmark of the fake radio*/
+.radio label::after {
+  height: 5px;
+  width: 9px;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  
+  transform: rotate(-45deg);
+  
+  left: 4px;
+  top: 7px;
+  color: green;
+}
+
+/*Hide the checkmark by default*/
+.radio input[type="radio"] + label::after {
+  content: none;
+}
+
+/*Unhide on the checked state*/
+.radio input[type="radio"]:checked + label::after {
+  content: "";
+}
+
+/*Adding focus styles on the outer-box of the fake radio*/
+.radio input[type="radio"]:focus + label::before {
+  outline: none;
+  box-shadow: 0 0 0 1px rgba(103, 58, 183,.3), 0 1px 1px 0 rgba(0,0,0,.07), 0 0 0 4px rgba(103, 58, 183,.3);
+}

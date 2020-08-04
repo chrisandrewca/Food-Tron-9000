@@ -1,0 +1,64 @@
+.react-tagsinput--focused {
+  border: none !important;
+}
+
+.react-tagsinput {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: initial !important;
+  margin-top: 0.4rem !important;
+}
+
+.react-tagsinput > span {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.react-tagsinput > span > div {
+  padding: 0 0 !important;
+  margin: 0 !important;
+}
+
+.react-tagsinput-input {
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  font-size: 1rem !important;
+  font-weight: initial !important;
+  margin-top: 0.4rem !important;
+}
+
+.react-tagsinput-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  line-height: 40px;
+  padding: 7px 21px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: #fff !important;
+  color: #6772e5 !important;
+  border-radius: 4px !important;
+  border: none !important;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  transition: all .15s ease;
+  cursor: pointer;
+  text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-tagsinput-remove {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}

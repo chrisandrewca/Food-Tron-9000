@@ -1,0 +1,154 @@
+section > div {
+  margin-bottom: 2rem;
+}
+
+section > form > div {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  position: relative;
+  display: block;
+  margin: 0;
+}
+
+h2 > span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  flex-flow: column;
+  z-index: 1;
+  margin: 0rem -0.5rem 0 0;
+}
+
+@keyframes floatingCauldron {
+  0% {
+    transform: initial;
+  }
+
+  25% {
+    transform: translateY(3px);
+  }
+
+  50% {
+    transform: initial;
+  }
+
+  75%{
+    transform: translateY(-3px);
+  }
+
+  100%{
+    transform: initial;
+  }
+}
+
+.animateCauldron {
+  animation: floatingCauldron 1s infinite;
+  animation-timing-function: linear;
+}
+
+.showExamples {
+  color: green;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  padding: 0.5rem;
+  text-transform: initial;
+  cursor: pointer;
+  width: 130px;
+  margin-top: 3rem;
+  font-weight: 600;
+}
+
+.showSelectExample {
+  position: relative;
+  list-style: none;
+  font-size: 1rem;
+  margin: 0.3rem 0 0 0.2rem;
+  padding: 0.5rem 0;
+  background: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  width: 130px;
+}
+
+.showSelectExample li {
+  padding: 0.5rem 0;
+}
+
+.showSelectExample li:hover {
+  background: #673AB7;
+  color: white;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.photoCarousel {
+  position: relative;
+}
+
+.photoCarousel > div {
+  margin-bottom: 0 !important;
+  height: 284px;
+}
+
+input[type='file'] {
+  position: relative;
+  padding: 0;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.customizations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  row-gap: 1.6rem;
+  max-width: 430px;
+  justify-items: center;
+  align-items: center;
+}
+
+.customizations > div {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 0 !important;
+}
+
+.addCustomization {
+  width: 75px;
+  height: 75px;
+}
+
+.disabledAdd {
+  color: grey;
+}
+
+.addPhoto {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 0;
+  bottom: 0;
+  padding: 0 0 3px 1px;
+}
+
+.saveBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.priceBar {
+  margin-bottom: 0 !important;
+}
+
+.priceBar > a {
+  margin-bottom: 0.5rem;
+}

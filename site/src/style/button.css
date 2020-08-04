@@ -1,0 +1,86 @@
+.button, .button-inverse, .button-claim, .button-destroy {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  line-height: 40px;
+  padding: 7px 21px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  color: #6772e5;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  transition: all .15s ease;
+  cursor: pointer;
+  text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button-small {
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  line-height: initial;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.button-disabled {
+  background: grey !important;
+}
+
+.button-loading {
+  background: #9d80d1 !important;
+}
+
+.button-loading span {
+  visibility: hidden;
+}
+
+.button-error {
+  box-shadow: 0 0 0 1px #ef9896, 0 2px 4px 0 rgba(0,0,0,.07), 0 1px 1.5px 0 rgba(0,0,0,.05);
+}
+
+.button-inverse {
+  color: #fff;
+  background: #673AB7;
+}
+
+.button-claim {
+  color: #fff;
+  background: #d4af37;
+  font-weight: 600;
+}
+
+.button-destroy {
+  color: #fff;
+  background: red;
+  font-weight: 600;
+}
+
+.button:hover, .button-inverse:hover, .button-claim:hover, .button-destroy:hover,
+.button:focus, .button-inverse:focus, .button-claim:focus, .button-destroy:focus,
+.button:target, .button-inverse:target, .button-claim:target, .button-destroy:target {
+  text-shadow: 0 1px 3px rgba(50, 50, 93, 0.12);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  outline: none;
+}
+
+.button:active, .button-inverse:active, .button-claim:active, .button-destroy:active {
+  text-shadow: 0 1px 3px rgba(50, 50, 93, 0.12);
+  transform: translateY(1px);
+  box-shadow: 0 7px 14px -2px rgba(50, 50, 93, 0.1), 0 3px 6px -3px rgba(0, 0, 0, 0.08);
+  outline: none;
+}
+
+/*
+.button:focus {
+  outline: 1px auto #673AB7;
+} */

@@ -1,0 +1,22 @@
+{
+  "license": "BSD-3-Clause",
+  "name": "scripts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "db-init": "cd db && npx migrate-mongo init",
+    "db-create": "cd db && npx migrate-mongo create",
+    "db-up": "env-cmd --use-shell 'cd db && npx migrate-mongo up'",
+    "db-down": "env-cmd --use-shell 'cd db && npx migrate-mongo down'",
+    "db-status": "env-cmd --use-shell 'cd db && npx migrate-mongo status'",
+    "clear-collections": "node ./clear-collections.js",
+    "clear-user": "node ./clear-user.js"
+  },
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "mongodb": "^3.5.5"
+  },
+  "devDependencies": {
+    "migrate-mongo": "^7.2.1"
+  }
+}

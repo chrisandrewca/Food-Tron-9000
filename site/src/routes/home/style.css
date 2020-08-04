@@ -1,0 +1,36 @@
+.main {
+  text-align: center;
+}
+
+@media all and (min-width: 400px) {
+  .main ol {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .main ol {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.2rem 0;
+}
+
+.buttons a + a {
+  margin-left: 1rem;
+}
+
+.main nav {
+  margin-top: 2rem;
+}
